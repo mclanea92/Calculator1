@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, blue, green);
+    background: linear-gradient(to right, #00AAFF, #00ff6c);
 }
 
 .calculator-grid {
@@ -16,7 +16,7 @@ body {
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px); 
 }
 
 .calculator-grid > button {
@@ -41,7 +41,7 @@ body {
     background-color: rgba(black, black, black, .75);
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     padding: 10px;
     word-wrap: break-word;
@@ -53,6 +53,6 @@ body {
     font-size: 1.5rem;
 }
 .output .current-operand {
-    color: lightgray;
+    color: white;
     font-size: 1.5rem;
-}
+} 
